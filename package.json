@@ -1,0 +1,51 @@
+{
+  "name": "adilsar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.1.0",
+    "@nextui-org/button": "2.0.26",
+    "@nextui-org/code": "2.0.24",
+    "@nextui-org/input": "2.1.16",
+    "@nextui-org/kbd": "2.0.25",
+    "@nextui-org/link": "2.0.26",
+    "@nextui-org/navbar": "2.0.27",
+    "@nextui-org/react": "^2.2.9",
+    "@nextui-org/snippet": "2.0.30",
+    "@nextui-org/switch": "2.0.25",
+    "@nextui-org/system": "2.0.15",
+    "@nextui-org/theme": "2.1.17",
+    "@phosphor-icons/react": "^2.0.15",
+    "@react-aria/ssr": "^3.8.0",
+    "@react-aria/visually-hidden": "^3.8.6",
+    "@tabler/icons-react": "^2.46.0",
+    "@types/node": "20.5.7",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.16",
+    "clsx": "^2.1.0",
+    "framer-motion": "^10.18.0",
+    "intl-messageformat": "^10.5.0",
+    "next": "^14.1.0",
+    "next-themes": "^0.2.1",
+    "postcss": "8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "tailwind-merge": "^2.2.1",
+    "tailwind-variants": "^0.1.18",
+    "tailwindcss": "3.3.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}

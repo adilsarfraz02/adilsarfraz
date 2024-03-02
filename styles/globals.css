@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.group\/bento .arrowAnim{
+    animation: arrow 1.5s 1 both !important;
+    cursor: pointer;
+    transition: all 1s ease;
+    rotate: 45deg;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+@keyframes arrow {
+    100%{
+        rotate:-10deg;
+    }
+}
+.imgTransition{
+    transition: all 1s ease both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+.description{
+    transition: all 1s ease both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px rgba(186, 16, 199,.8) inset !important;
+    -webkit-text-fill-color: inherit !important;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #8c1195;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    border:5px solid transparent !important;
+}
+/* ::-webkit-scrollbar-thumb:hover{
+    background-color: #6d1873;
+} */
+::-webkit-scrollbar-thumb:active{
+    background-color: #330636;
+}
