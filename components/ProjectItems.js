@@ -54,7 +54,7 @@ const items = [
     description: "This Project is about Pharmacy Management System for Pu Pharma.",
     header:  <ImageContainer img='/pupharma/main.svg'/>,
     img:'/pupharma/main.svg',
-    link:'https://pupharma.online/',
+    link:'https://pupharma.vercel.app',
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     href:'/projects/pu-pharma',
     slug:'pu-pharma'
