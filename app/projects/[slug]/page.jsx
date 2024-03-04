@@ -100,9 +100,14 @@ const SingleProject = ({ params }) => {
             {items[1].title}
           </h1>
           <p className="text-xl flex flex-wrap mb-2">{items[1].description}</p>
-          <Link href={items[1].link} target="_blank" className="w-fit">
-            <span className="underline transition text-primary-500 text-2xl flex gap-2 items-center">
-              View Project <FaArrowLeft className="rotate-[130deg] mt-2" />
+          <Link
+            href={items[1].link}
+            target="_blank"
+            className="w-fit group transition"
+          >
+            <span className="underline transition group-active:scale-85 text-primary-500 text-2xl flex gap-2 items-center">
+              View Project{" "}
+              <FaArrowLeft className="rotate-[130deg] transition group-hover:rotate-[180deg] mt-2" />
             </span>
           </Link>
         </div>
@@ -160,9 +165,14 @@ const SingleProject = ({ params }) => {
             {items[2].title}
           </h1>
           <p className="text-xl flex flex-wrap mb-2">{items[2].description}</p>
-          <Link href={items[2].link} target="_blank" className="w-fit">
-            <span className="underline transition text-primary-500 text-2xl flex gap-2 items-center">
-              View Project <FaArrowLeft className="rotate-[130deg] mt-2" />
+          <Link
+            href={items[2].link}
+            target="_blank"
+            className="w-fit group transition"
+          >
+            <span className="underline transition group-active:scale-85 text-primary-500 text-2xl flex gap-2 items-center">
+              View Project{" "}
+              <FaArrowLeft className="rotate-[130deg] transition group-hover:rotate-[180deg] mt-2" />
             </span>
           </Link>
         </div>
@@ -220,9 +230,14 @@ const SingleProject = ({ params }) => {
             {items[3].title}
           </h1>
           <p className="text-xl flex flex-wrap mb-12">{items[3].description}</p>
-          <Link href={items[2].link} target="_blank" className="w-fit">
-            <span className="hover:underline transition hover:text-primary-500 text-2xl flex gap-2 items-center">
-              Coming Soon ..
+          <Link
+            href={items[3].link}
+            target="_blank"
+            className="w-fit group transition"
+          >
+            <span className="underline transition group-active:scale-85 text-primary-500 text-2xl flex gap-2 items-center">
+              View Project{" "}
+              <FaArrowLeft className="rotate-[130deg] transition group-hover:rotate-[180deg] mt-2" />
             </span>
           </Link>
         </div>
